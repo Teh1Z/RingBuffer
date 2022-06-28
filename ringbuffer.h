@@ -1,5 +1,9 @@
+#ifndef RINGBUFFER_RINGBUFFER_H
+#define RINGBUFFER_RINGBUFFER_H
+
 #include <iostream>
 #include <stdexcept>
+
 
 template<typename T>
 class RingBuffer {
@@ -114,3 +118,5 @@ private:
         rhv._size = _tempSize;
     }
 };
+
+#endif //RINGBUFFER_RINGBUFFER_H
